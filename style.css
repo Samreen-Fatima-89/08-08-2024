@@ -1,0 +1,108 @@
+* {
+  font-family: Open Sans !important;
+}
+
+.mindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #c74476;
+}
+
+.inputsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.box,
+.title {
+  color: white;
+}
+
+.lastdiv {
+  color: white;
+}
+
+.input1,
+.input2,
+.input3,
+.input4 {
+  width: 100%;
+}
+
+.inp {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #9e4868;
+  width: 90%;
+}
+
+.box > input {
+  width: 30px;
+}
+
+.inp:focus {
+  background-color: #f2a8c4 !important;
+  border: 1px solid #f3f3f3 !important;
+  box-shadow: none;
+}
+
+input::placeholder {
+  color: #f3f3f3;
+}
+
+.createAccountContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.createAccount {
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+margin-bottom: 5px;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnsContainer button {
+  padding: 10px 20px;
+  background-color: #c74476;
+  border: 1px solid #f3f3f3;
+  color: #f3f3f3;
+  width: 100%;
+  border-radius: 10px;
+}
+.input4{
+  position: relative;
+}
+.eye{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
